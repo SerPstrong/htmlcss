@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="contaner">
+
+    <div class="header">
+
+        <div id="logo">
+            My shop
+        </div>
+
+        <ul id="top-menu">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="contakts.html">Контакты</a></li>
+            <li><a href="table.html">Таблица</a></li>
+        </ul>
+    </div>
+
+<h1>Контакты</h1>
+
+<fieldset>
+    <legend>Напишите нам</legend>
+    <form class="c-form" action="feedback.php" method="post">
+            <input type="text" name="username" id="username" placeholder="Введите ваше имя">
+                <br>
+            <input type="email" name="email" placeholder="Введите вашу почту">
+                <br>
+            <input type="text" name="subject" placeholder="Введите тему сообщения">
+                <br>
+            <textarea name="message" cols="30" rows="5" placeholder="Введите ваш текст"></textarea>
+    </form>
+                <br>
+    <input type="submit" value="Отправить">
+</fieldset>
+
+<h1>Адрес</h1>
+
+<p>
+    <strong>Телефон:</strong>&nbsp;+7 999 999 99 99
+    <br>
+    <strong>Адрес:</strong>&nbsp;г.Москва
+    <br>
+    <strong>Email:</strong>&nbsp;1@mail.ru
+</p>
+
+    <div class="yamap">
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8a798fcee3c28e13aad69d5c3c8faefcc456ea62415d289fb5df50dd29d5bf90&amp;width=100%&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
+
+    <div id="footer">
+        <p>
+            &copy;"Все права защищены"
+        </p>
+    </div>
+
+</div>
+
+</body>
+</html>
